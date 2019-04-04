@@ -1,0 +1,155 @@
+*{margin:0; padding:0;}
+header,main,footer,section,nav,aside,article {
+    display:block;
+}
+                                        /*  header  TAL SHALEV new*/
+#logo
+{
+	width:500px;
+    height:88px;
+	font-size:65px;
+	color: #222222;
+	font-family:Arial;
+	background:url(../images/my-logo.jpg) no-repeat left center;
+	background-size:contain;
+}
+#textlogo{
+    padding-left: 115px;
+}
+header
+{
+	padding-top:76px;
+    width: 473px;
+    height: 133px;
+}
+header a {
+	background-color:black;
+	position: absolute;
+	width: 188px;
+	height: 60px;
+}
+                                           /*  body   */
+body{
+	background: #F2F2F2;
+}
+.wrapper{
+    width: 1200px;
+	margin:0px auto;
+}
+                                           /*  nav   */
+nav a:hover{
+	color:blue;
+	opacity: 1;
+}
+nav a{
+	padding-right: 24px;
+    color: #222222;
+    opacity: 0.3; 
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+}
+                                           /*  footer  */
+.pas{
+    padding-left: 122px;
+    height: 1px;
+    background-color: #cac6c6;
+    align-content: center;
+    margin-top: 40px;
+	margin-right: 122px;
+}
+footer{
+	padding-top: 80px;
+     background-color: #515151;
+     /*I know the height should be 240 but I changed it to look exactly like the instructions. */
+     height: 180px;
+ }
+#uplinks a{
+	font-family: Fira Sans;
+	font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding-right: 58px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}	
+.linkslogo{
+	margin-top: 40px;
+	width:100px;
+    height: 14px;
+  }
+  #linkleft{
+padding-left: 18px;
+  }
+                                       /*  main  */
+.coverimage{
+	margin-top:40px;
+}
+.skills{
+    margin-top:46px;
+	margin-bottom:70px;
+	font-size: 20px;
+}
+.skills h1{	
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #222222;
+}
+.skills span{         
+padding-left: 30px;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+margin-top:45px;
+}
+.pushup{
+    margin-bottom: -20px;
+    margin-top: 30px;
+ }
+.skills ul img{    
+padding-bottom: 30px;
+height: 54px;
+width: 54px;}
+.aboutme{
+	margin-top: 40px;
+}	
+.aboutme p{
+	width: 500px;
+    height: 58px;   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    opacity: 0.7;}
+.aboutme h1{
+	width: 539px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #222222;
+    padding-bottom: 8px;
+}
+.coverimage img:hover{
+    transform: scale(0.95);
+}
+#mid{
+	padding-left: 30px;
+	}
+#right{
+		padding-left: 30px;
+ }
+                                         /*  for all  */
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type: none;
+}
